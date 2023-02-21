@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-display: 16px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 690px;
+  width: 100%;
+  margin: 50px auto;
+}
+h1 {
+  padding: 1rem;
+
+  font-size: 2.5rem;
+  color: #0a0a23;
+}
+#output p {
+  margin: 1rem;
+  padding: 1rem;
+  outline-color: transparent;
+  border-radius: 0.8rem;
+  outline-style: solid;
+  box-shadow: 0 0 0 4px #5a01a7;
+  transition: 0.7s;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+button#trigger {
+  margin: 1rem;
+
+  background-color: #0a0a23;
+  color: #fff;
+  border: none;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  min-height: 2rem;
+  min-width: 7rem;
+}
+button#trigger:hover {
+  background-color: #002ead;
+  transition: 0.7s;
+}
+button#trigger:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 0 0 0 4px #5a01a7;
+  transition: 0.7s;
+}
+button#trigger:active {
+  background-color: #ffbf00;
+}
